@@ -3,8 +3,6 @@ require 'directors_database'
 
 def directors_totals(nds)
 
-  # pp nds
-
   new_hash = {}
   counter = 0
 
@@ -28,11 +26,6 @@ def directors_totals(nds)
     counter += 1
   end
 
-  # puts new_hash
-
-  # total = 0
-
-
-
   new_hash
+
 end
