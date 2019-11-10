@@ -5,6 +5,7 @@ def directors_totals(nds)
 
   pp nds
 
+  new_hash = {}
 
   counter = 0
 
