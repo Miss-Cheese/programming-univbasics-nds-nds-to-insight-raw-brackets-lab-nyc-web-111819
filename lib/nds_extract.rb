@@ -24,6 +24,7 @@ def directors_totals(nds)
       new_counter += 1
     end
 
+    total_movie_revenue
 
     counter += 1
 
