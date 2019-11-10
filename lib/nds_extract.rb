@@ -16,12 +16,12 @@ def directors_totals(nds)
 
     new_counter = 0
     total_movie_revenue = 0
-    
+
     while new_counter < movies_array.count do
-      
+
       movies_array[new_counter][:worldwide_gross]
     end
-    
+
 
     counter += 1
 
