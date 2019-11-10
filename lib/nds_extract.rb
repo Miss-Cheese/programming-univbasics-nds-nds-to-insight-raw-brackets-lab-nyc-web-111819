@@ -3,13 +3,11 @@ require 'directors_database'
 
 def directors_totals(nds)
 
-  pp nds
-
 
   counter = 0
 
-  while counter < directors_database.count do
-    puts directors_database[counter][:name]
+  while counter < nds.count do
+    puts nds[counter][:name]
     counter += 1
   end
 
