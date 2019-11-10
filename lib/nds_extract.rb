@@ -34,7 +34,7 @@ def directors_totals(nds)
   puts new_hash
 
   total = 0
-  
+
 
 
   # key = nds[counter][:name]
