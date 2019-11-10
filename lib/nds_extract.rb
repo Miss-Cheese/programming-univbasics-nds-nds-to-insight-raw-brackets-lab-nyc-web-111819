@@ -23,8 +23,7 @@ def directors_totals(nds)
       total_movie_revenue += movies_array[new_counter][:worldwide_gross]
       new_counter += 1
     end
-
-    total_movie_revenue
+    new_hash[director_hash[:name]] = total_movie_revenue
 
     counter += 1
 
