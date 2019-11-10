@@ -12,7 +12,7 @@ def directors_totals(nds)
     counter += 1
   end
 
-  
+
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   result = {
   }
