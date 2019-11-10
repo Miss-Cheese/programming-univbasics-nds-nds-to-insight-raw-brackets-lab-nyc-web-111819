@@ -10,6 +10,7 @@ def directors_totals(nds)
 
   while counter < nds.count do
     puts nds[counter][:name]
+    counter += 1
   end
 
   # director_revenue = {[] => 0}
