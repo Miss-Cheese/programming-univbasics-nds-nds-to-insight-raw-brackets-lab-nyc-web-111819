@@ -14,18 +14,18 @@ def directors_totals(nds)
     new_hash[director_hash[:name]] = 0
     movies_array = director_hash[:movies]
 
-    while 
-    movie_revenue = 0 
-    
+    while
+    movie_revenue = 0
+
     counter += 1
-    
-    
+
+
   end
 
   puts new_hash
 
-  total = 0 
-  while 
+  total = 0
+  while
 
 
   # key = nds[counter][:name]
