@@ -10,7 +10,7 @@ def directors_totals(nds)
   counter = 0
 
   while counter < nds.count do
-    puts nds[counter][:name]
+    # puts nds[counter][:name]
     new_hash[nds[counter][:name]] = 0
     counter += 1
   end
