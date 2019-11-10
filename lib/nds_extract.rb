@@ -5,7 +5,7 @@ def directors_totals(nds)
 
   pp nds
 
-  
+
   counter = 0
 
   while counter < nds.count do
@@ -14,11 +14,11 @@ def directors_totals(nds)
 
   # director_revenue = {[] => 0}
 
-  
+
 
   # key = nds[counter][:name]
   # integer = nds[counter][:movies][2][:worldwide_gross]
-  # 
+  #
   # while counter < nds.count do
   #   puts result = {
   #     nds[counter][:name] => nds[counter][:movies][:worldwide_gross]
