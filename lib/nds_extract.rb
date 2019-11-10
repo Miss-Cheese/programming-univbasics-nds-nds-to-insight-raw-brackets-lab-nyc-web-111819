@@ -15,7 +15,7 @@ def directors_totals(nds)
     counter += 1
   end
 
-  new_hash
+  puts new_hash
 
   # director_revenue = {[] => 0}
 
