@@ -11,8 +11,10 @@ def directors_totals(nds)
 
   while counter < nds.count do
     puts nds[counter][:name]
+    new_hash[nds[counter][:name]] = 0
     counter += 1
   end
+
 
   # director_revenue = {[] => 0}
 
